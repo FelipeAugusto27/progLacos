@@ -5,10 +5,10 @@ Desenvolver um programa que calcule o fatorial de 15. Ou seja, 5!. Desta forma, 
 
 # Processamento e Output
 cont = 1
-acumulador = 2
+acumulador = 1
 while cont <= 5:
-    acumulador = cont * acumulador
     print(acumulador)
+    acumulador = cont * acumulador
     cont = cont + 1
 print(f"{acumulador}")
 print("FIM")

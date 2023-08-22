@@ -1,11 +1,10 @@
 '''
-Fazer um programa que pergunte e aguarde resposta com y ou n
+Fazer um programa que pergunte e aguarde resposta com Y ou N repita a pergunta se escrito errado
 '''
 
 print("GAME OVER")
 while True:
-    print("Continue? [Y]/[N]")
-    resposta = input()
+    resposta = input("Continue? [Y]/[N] \n")
     if resposta == "Y":
         print("Reloading map...")
         break
