@@ -5,7 +5,9 @@ Utilize um laço que efetue a variação de 2 em 2
 
 # Processamento e Output
 var = 0
+acumulador = 0
 while var <= 500:
-    print(var)
+    acumulador = acumulador + var
     var = var + 2
+print(f"Valor acumulado: {acumulador}")
 print("FIM")

@@ -7,9 +7,18 @@ elevado a 0 é 1, e elevado a 1 ele próprio. A apresentação deve observar a s
 '''
 import math
 
-# Processamento e Output
-var = 0
-while var <= 15:
-    print(f"3^{var}={math.pow(3,var)}")
-    var = var + 1
+# Processamento e Output (Com math.pow)
+var1 = 0
+while var1 < 15:
+    var1 = var1 + 1
+    print(f"3^{var1}={math.pow(3, var1):.0f}")
+print("FIM do math.pow")
+
+# Processamento e Output (Sem math.pow)
+acumulador = 3
+var2 = 2
+while var2 < 15:
+    acumulador = acumulador * var2
+    print(f"3^{var2}={acumulador}")
+    var2 = var2 + 1
 print("FIM")
